@@ -1,6 +1,6 @@
 {
   "name": "yc-google",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "this is a cli tool for yc google",
   "main": "index.js",
   "scripts": {

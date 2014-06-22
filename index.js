@@ -51,7 +51,7 @@ function search(arg) {
     var URL = "http://%s/search?q=%s";
 
     getIp(function(ip) {
-        
+
         var url = 'http://' + ip;
         if (arg.length > 2) {
             var query = arg[2];
@@ -60,7 +60,9 @@ function search(arg) {
         }
 
         //open it
-        open(url);
+        open({
+           url: url    
+        });
 
         process.exit(0);
 
