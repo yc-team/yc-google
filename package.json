@@ -1,0 +1,32 @@
+{
+  "name": "yc-google",
+  "version": "0.0.3",
+  "description": "this is a cli tool for yc google",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "igoogle": "./bin/yc_google"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yc-team/yc-google.git"
+  },
+  "keywords": [
+    "yc",
+    "google",
+    "open",
+    "tool"
+  ],
+  "dependencies": {
+    "async": "0.9.0",
+    "yc-open": "latest",
+    "request": "2.36.0"
+  },
+  "author": "zhangyaochun",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/yc-team/yc-google/issues"
+  }
+}
